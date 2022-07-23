@@ -8,7 +8,7 @@ type SideNavType = {
 
 function SideNav({ openSideNav, setOpenSideNav }: SideNavType) {
   return (
-    <div className="side_nav" style={{ width: `${openSideNav ? "40%" : "0"}` }}>
+    <div className="side_nav" style={{ width: `${openSideNav ? "50%" : "0"}` }}>
       <ul>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
           <a href="#about">About</a>

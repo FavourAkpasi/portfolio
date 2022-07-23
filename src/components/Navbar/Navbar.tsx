@@ -61,10 +61,12 @@ const Navbar = () => {
         </div>
       ) : (
         <>
-          <MenuIcon
-            id="menu_bar"
-            onClick={() => setOpenSideNav(!openSideNav)}
-          />
+          {!openSideNav && (
+            <MenuIcon
+              id="menu_bar"
+              onClick={() => setOpenSideNav(!openSideNav)}
+            />
+          )}
           <SideNav openSideNav={openSideNav} setOpenSideNav={setOpenSideNav} />
         </>
       )}

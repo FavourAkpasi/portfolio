@@ -10,14 +10,14 @@
   padding: 5rem 0;
   font-size: clamp(16px, 3vw, 1.5rem);
   font-weight: 600;
-  opacity: 0.97;
+  opacity: 0.95;
 }
 
 .side_nav ul {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 1rem;
   align-items: flex-end;
 }
 
@@ -41,6 +41,6 @@
   border: none;
   position: absolute;
   font-size: 2rem;
-  right: 1.6rem;
+  right: 1rem;
   top: 1.4rem;
 }
