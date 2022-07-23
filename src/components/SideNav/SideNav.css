@@ -1,0 +1,46 @@
+.side_nav {
+  height: 100vh;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 5rem 0;
+  font-size: clamp(16px, 3vw, 1.5rem);
+  font-weight: 600;
+  opacity: 0.97;
+}
+
+.side_nav ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 3rem;
+  align-items: flex-end;
+}
+
+.side_nav ul li {
+  display: flex;
+  margin: 1rem;
+}
+
+#side-nav-resume_btn {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: inline-block;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+#close_btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  font-size: 2rem;
+  right: 1.6rem;
+  top: 1.4rem;
+}
