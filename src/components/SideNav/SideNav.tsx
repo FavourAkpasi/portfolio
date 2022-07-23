@@ -30,9 +30,11 @@ function SideNav({ openSideNav, setOpenSideNav }: SideNavType) {
           </a>
         </li>
       </ul>
-      <button id="close_btn" onClick={() => setOpenSideNav(!openSideNav)}>
-        <CloseIcon />
-      </button>
+      {openSideNav && (
+        <button id="close_btn" onClick={() => setOpenSideNav(!openSideNav)}>
+          <CloseIcon />
+        </button>
+      )}
     </div>
   );
 }
